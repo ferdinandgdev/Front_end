@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>contact</title>
+    <meta name="description" content="page contact">
+</head>
+<body>
+    <div class="formulaire">
+        <form action="" metho="get">
+        <fieldset>
+            <legend>Contact</legend>
+            <p>
+                <input type="text" name="nom" id="prénom" placeholder="Prénom ?" size="25" autofocus required>
+            </p>
+            <br>
+            <div>
+                <input type="text" name="nom" id="nom" placeholder="Nom ?" required size="25">
+            </div>
+            <br>
+            <p>
+                <input type="email" name="email" id="email"  placeholder="nom.prenom@roadmusic.fr" required="required" size="30">
+            </p>
+            <div>
+                <label for="objet">Objet :</label>
+                <select name="Motifs" class="motifs">
+                    <option value="">--choississez une option--</option>
+                    <option value="pbabonnement">Problèmes d'abonnement</option>
+                    <option value="pbecoutes">Problèmes d'écoutes</option>
+                    <option value="dresiliation">Demande de résiliation</option>
+                </select>
+            </div>
+            <p>
+                <input type="text" name="messagecontact" id="messagecontact" placeholder="Votre demande ici" size="150"> </p>
+            <p>
+            <div>
+                <input class="favorite styled" type="submit" value="Valider">
+                <label for="required"></label>
+            </div>
+            <p>
+                Nous rejoindre sur <a href="https://www.facebook.com"> Facebook</a>
+            </p>
+            <!-- tentative de boite 
+            <div id="box"  onclick="document.getElementById('box').style.display='none';
+            document.getElementById('filter').style.display='none'">
+            </div>
+            fin de la boite-->
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
